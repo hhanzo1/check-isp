@@ -16,15 +16,15 @@ In the Unraid web interface, access Settings\\UserScripts:
 
 - Add a New Script, give it a name like check-isp
 - Edit the script
-- Copy & Paste the contents of the script from this [here.](https://github.com/hhanzo1/check-vpn-tunnel/blob/main/check-isp.sh).
+- Copy & Paste the contents of the script from [here.](https://github.com/hhanzo1/check-vpn-tunnel/blob/main/check-isp.sh).
 - Add a cron schedule
 
 ```bash
 https://github.com/hhanzo1/check-vpn-tunnel/blob/main/check-isp.sh
 ```
 
-Update the script's BASE_URL with the Uptime Kuma Push URL.
-Check if the scripts LOG path location is correct.
+- Update the script's BASE_URL with the Uptime Kuma Push URL.
+- Check if the scripts LOG path location is correct.
 
 # Usage
 Test the script is running as expected by running manually, then scheduled via cron.
